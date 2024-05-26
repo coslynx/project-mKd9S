@@ -1,0 +1,16 @@
+/* emoji.css */
+
+/* Styles for emojis and stickers */
+.emoji {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+.sticker {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
