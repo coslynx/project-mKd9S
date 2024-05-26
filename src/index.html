@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Website</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/emoji.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Chat Website</h1>
+    </header>
+
+    <main>
+        <section id="chat">
+            <div id="chat-window">
+                <!-- Chat messages will be displayed here -->
+            </div>
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </section>
+
+        <section id="profile">
+            <div id="user-profile">
+                <!-- User profile information will be displayed here -->
+            </div>
+            <button id="edit-profile-button">Edit Profile</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Chat Website. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/websocket.js"></script>
+</body>
+
+</html>
